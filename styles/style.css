@@ -1,0 +1,26 @@
+ul li {
+  display: inline;
+  margin-right: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li:hover {
+  background-color: grey;
+}
+
+header {
+  padding-bottom: 30px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
