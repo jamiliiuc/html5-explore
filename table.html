@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+        tfoot td {
+            text-align: center;
+        }
+        thead th {
+            background-color: #808000;
+        }
+    </style>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- thead 
+        tr 
+         th th 
+    tbody
+        tr 
+         td td   
+    tfoot  -->
+    <ul>
+        <li><a href="index.html">HTML 5 Features</a></li>
+        <li><a href="semantic_blog.html">My Blog</a></li>
+        <li><a href="forms.html">Forms</a></li>
+        <li><a href="table.html">Table</a></li>
+    </ul>
+    <table>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="2">1</td>
+                <!-- <td>Bill Gates</td> -->
+                <td>CEO</td>
+                <td>100$</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Larry Page</td>
+                <td>CEO</td>
+                <td>200$</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mark</td>
+                <td>CTO</td>
+                <td>200$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">CEO der Salary</td>
+        </tfoot>
+    </table>
+
+</body>
+</html>
